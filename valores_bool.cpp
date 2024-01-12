@@ -1,6 +1,12 @@
-#include <iostream>
-using namespace std;
+/*
+TITULO: VALORES BOOLEANOS
+Autor: Milton Sandoval Monasterio
+Descripcion: Proceso para ver los estados y las asignaciones en una variable booleana
+Fecha: 2024-01-12
+*/
 
+#include <iostream> // Se trae la libreria para  mostrar y recibir datos
+using namespace std;//Dar acceso al espacio de nombres (namespace) std
 int main(int argc, char *argv[]) 
 {
 	//Declaracion y uso de bool.
@@ -20,4 +26,3 @@ int main(int argc, char *argv[])
 	
 	return 0;//se retorna 0 si el codigo esta bien
 }
-
