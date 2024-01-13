@@ -20,27 +20,27 @@ int main(int argc, char *argv[])
 	letra=65;
 	cout<<"Imprimiendo ASCCI '65':"<<letra<<endl;
 	//Asignando valores numericos a la variable vocal_may
-	vocal_min = 160; // á EN CODIGO ASCCI
+	vocal_min = 160; // Ã¡ EN CODIGO ASCCI
 	cout<<"Imprimiendo las vocales minusculas con acento con codigo ASCCI:"<<endl;
 	cout<<vocal_min<<", "; 
-	vocal_min = 130;//é EN CODIGO ASCCI
+	vocal_min = 130;//Ã© EN CODIGO ASCCI
 	cout<<vocal_min<<", ";
-	vocal_min = 161;//í EN CODIGO ASCCI
+	vocal_min = 161;//Ã­ EN CODIGO ASCCI
 	cout<<vocal_min<<", ";
-	vocal_min = 162;//ó EN CODIGO ASCCI
+	vocal_min = 162;//Ã³ EN CODIGO ASCCI
 	cout<<vocal_min<<", ";
-	vocal_min = 163;//ú EN CODIGO ASCCI
+	vocal_min = 163;//Ãº EN CODIGO ASCCI
 	cout<<vocal_min<<endl;
 	cout<<"Imprimiendo las vocales Mayusculas con acento con codigo ASCCI:"<<endl;
-	vocal_may = 181;//Á EN CODIGO ASCCI
+	vocal_may = 181;//Ã EN CODIGO ASCCI
 	cout<<vocal_may<<", ";
-	vocal_may = 144;//É EN CODIGO ASCCI
+	vocal_may = 144;//Ã‰ EN CODIGO ASCCI
 	cout<<vocal_may<<", ";
-	vocal_may = 214;//Í EN CODIGO ASCCI
+	vocal_may = 214;//Ã EN CODIGO ASCCI
 	cout<<vocal_may<<", ";
-	vocal_may = 224;//Ó EN CODIGO ASCCI
+	vocal_may = 224;//Ã“ EN CODIGO ASCCI
 	cout<<vocal_may<<", ";
-	vocal_may = 233;//Ú EN CODIGO ASCCI
+	vocal_may = 233;//Ãš EN CODIGO ASCCI
 	cout<<vocal_may<<endl;
 	cout<<"Imprimiendo el arroba con codigo ASCCI:"<<endl;
 	char_arroba =64;//ARROBA EN CODIGO ASCCI
@@ -49,7 +49,17 @@ int main(int argc, char *argv[])
 	char_arroba = 92;//BARRA INVERTIDA EN CODIGO ASCCI
 	cout<<char_arroba<<endl;
 	
-	
+	// DECLARACION DE UNA CADENA DE CARACTERES
+	char nombre[]="MILTON";
+	// Impresion de un nombre y de cada letra del nombre
+	cout<<"Imprimiendo el NOMBRE:"<<nombre<<endl;
+	cout<<"Imprimiendo nombre[0]:"<<nombre[0]<<endl;
+	cout<<"Imprimiendo nombre[1]:"<<nombre[1]<<endl;
+	cout<<"Imprimiendo nombre[2]:"<<nombre[2]<<endl;
+	cout<<"Imprimiendo nombre[3]:"<<nombre[3]<<endl;
+	cout<<"Imprimiendo nombre[4]:"<<nombre[4]<<endl;
+	cout<<"Imprimiendo nombre[5]:"<<nombre[5]<<endl;
+
 	return 0;
 }
 
