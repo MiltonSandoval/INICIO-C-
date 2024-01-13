@@ -59,7 +59,13 @@ int main(int argc, char *argv[])
 	cout<<"Imprimiendo nombre[3]:"<<nombre[3]<<endl;
 	cout<<"Imprimiendo nombre[4]:"<<nombre[4]<<endl;
 	cout<<"Imprimiendo nombre[5]:"<<nombre[5]<<endl;
+	nombre[0]='m';
+	nombre[1]='i';
+	nombre[2]='l';
+	nombre[3]='t';
+	nombre[4]='o';
+	nombre[5]='n';
+	cout<<"Imprimiendo el nombre en minuscula:"<<nombre<<endl;
 
 	return 0;
 }
-
