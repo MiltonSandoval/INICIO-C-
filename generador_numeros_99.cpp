@@ -8,7 +8,7 @@ Fecha: 2024-01-17
 
 #include <iostream>
 #include<stdlib.h>//Libreria que proporciona la funcion para generar numeros aleatorios.
-#include<time.h>//librería en C++ que proporciona funciones para trabajar con el tiempo y sirve para
+#include<time.h>//librerï¿½a en C++ que proporciona funciones para trabajar con el tiempo y sirve para
 //que los numeros generados no sean los mismo.
 
 using namespace std;
@@ -26,8 +26,8 @@ int main(int argc, char *argv[])
 	cout<<"Cuantos numeros quiere generar:";
 	cin>>numeros_generar;
 	/*
-	time(NULL) devuelve el número de segundos transcurridos desde el 1 de enero de 1970 hasta la fecha y hora actuales.
-	Y esta funcion se utiliza para inicializar el generador de números aleatorios
+	time(NULL) devuelve el numero de segundos transcurridos desde el 1 de enero de 1970 hasta la fecha y hora actuales.
+	Y esta funcion se utiliza para inicializar el generador de numeros aleatorios
 	con una semilla diferente cada vez que se ejecuta el programa.
 	*/
 	srand(time(NULL));

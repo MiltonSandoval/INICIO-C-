@@ -27,14 +27,14 @@ int main(int argc, char *argv[]) //Funcion principal main para retornar un enter
 	cout<<"Numero entero:" <<numero_entero<<endl;//IMPRESION DE LA VARIABLE numero_entero
 	//ASIGNACION ENTRE VARIABLES
 	numero_entero_p1=numero_entero_p;//NO es correcto !!
-	cout<<"Numero entero pequeño 1ra asignacion:"<<numero_entero_p1<<endl;
+	cout<<"Numero entero pequeï¿½o 1ra asignacion:"<<numero_entero_p1<<endl;
 	//randon de datos short int -32768 al 32767
 	numero_entero_p=32769;
 	numero_entero_p1=numero_entero_p;
-	cout"Numero entero pequeño 2da asignacion:"<<numero_entero_p1<<endl;
+	cout<<"Numero entero pequeï¿½o 2da asignacion:"<<numero_entero_p1<<endl;
 	numero_entero_p=32760;
 	numero_entero_p1=numero_entero_p;
-	cout"Numero entero pequeño 3ra asignacion:"<<numero_entero_p1<<endl;
+	cout<<"Numero entero pequeï¿½o 3ra asignacion:"<<numero_entero_p1<<endl;
 	return 0;//RETORNO DE 0 PARA TERMINAR EL PROGRAMA
 }
 
